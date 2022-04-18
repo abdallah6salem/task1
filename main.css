@@ -1,0 +1,188 @@
+.one { 
+    width: 100%;
+    height: 500px;
+
+}
+.one .one1 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Mega_Brands_logo.png/1200px-Mega_Brands_logo.png)
+    ;background-size:100% 100%;
+ width: 100%;
+    height: 120px;
+ 
+}
+.one .one1 h1{color:rgb(161, 21, 107);
+    font-size: 40px;
+    margin: 10px;
+}
+.one .one1 input{ float: right;}
+.one .one1 h2{color: rgb(5, 5, 5);
+    float: right;
+margin: 20px;
+}
+.two
+{font-size: 20px;
+text-align: center;
+color: darkslategray;}
+.four {width: 100%;
+    display: flex;
+}
+.four .four1 img {width: 33%;    display: inline;}
+.four .four2 img {width: 33%;   display: inline;}
+.four .four3 img {width: 33%;   display: inline;}
+
+.fife {width: 100%;
+    display: flex;
+}
+.fife .fife1 img {width: 33%;    display: inline;}
+.fife .fife2 img {width: 33%;   display: inline;}
+.fife .fife3 img {width: 33%;   display: inline;}
+
+.seven{
+     width: 100%;
+  
+}
+
+.seven .seven1 {width: 24%  ; ;float: right;}
+.seven .seven2 {width:24% ;    ;float: right;}
+.seven .seven3 {width: 24% ;   ;float: right;}
+.seven .seven4 {width: 24% ;   ;float: right;}
+.three {position: relative;}
+.three h1::after{
+content: "";
+width: 600px;
+height: 10px;
+background-color: rgb(102, 155, 49);
+position: absolute;
+top: 17px;
+left: 300px;
+border-radius: 50%;}
+
+.six {position: relative;}
+.six h1::after{
+content: "";
+width: 600px;
+height: 10px;
+background-color: rgb(102, 155, 49);
+position: absolute;
+top: 17px;
+left: 300px;
+border-radius: 50%;}
+@media (max-width:1200px){
+
+    .one .two h1 pre {font-size: 25px;
+color: blue;}    
+
+.three {position: relative;}
+.three h1::after{
+content: "";
+width: 400px;
+height: 10px;
+background-color: rgb(102, 155, 49);
+position: absolute;
+top: 17px;
+left: 300px;
+border-radius: 50%;}
+
+.six {position: relative;}
+.six h1::after{
+content: "";
+width: 400px;
+height: 10px;
+background-color: rgb(102, 155, 49);
+position: absolute;
+top: 17px;
+left: 300px;
+border-radius: 50%;}
+
+}
+@media (max-width:760px){
+
+    .one .two h1 pre {font-size: 20px;
+color: blue;}    
+
+.three {position: relative;}
+.three h1::after{
+content: "";
+width: 200px;
+height: 10px;
+background-color: rgb(102, 155, 49);
+position: absolute;
+top: 17px;
+left: 300px;
+border-radius: 50%;}
+
+.six {position: relative;}
+.six h1::after{
+content: "";
+width:200px;
+height: 10px;
+background-color: rgb(102, 155, 49);
+position: absolute;
+top: 17px;
+left: 300px;
+border-radius: 50%;}}
+@media (max-width:610px){
+
+    .one .two h1 pre {font-size: 17px;
+color: blue;}    
+
+.three {position: relative;}
+.three h1::after{
+content: "";
+width: 200px;
+height: 10px;
+background-color: rgb(102, 155, 49);
+position: absolute;
+top: 17px;
+left: 300px;
+border-radius: 50%;}
+
+.six {position: relative;}
+.six h1::after{
+content: "";
+width:200px;
+height: 10px;
+background-color: rgb(102, 155, 49);
+position: absolute;
+top: 17px;
+left: 300px;
+border-radius: 50%;}
+
+.one .one1 h2{color:rgb(24, 21, 23);
+    font-size: 20px;
+    margin: 10px;
+}
+}
+@media (max-width:525px){
+
+    .one .two h1 pre {font-size: 17px;
+color: blue;}    
+
+.three {position: relative;}
+.three h1::after{
+content: "";
+width: 100px;
+height: 10px;
+background-color: rgb(102, 155, 49);
+position: absolute;
+top: 17px;
+left: 300px;
+border-radius: 50%;}
+
+.six {position: relative;}
+.six h1::after{
+content: "";
+width:100px;
+height: 10px;
+background-color: rgb(102, 155, 49);
+position: absolute;
+top: 17px;
+left: 300px;
+border-radius: 50%;}
+
+.one .one1 h1 {color:rgb(161, 21, 107);
+    font: size 10px;
+    margin: 2px;
+}
+}
+
